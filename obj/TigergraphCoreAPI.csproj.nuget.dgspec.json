@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rohit\\source\\repos\\TigergraphCore\\TigergraphCoreAPI\\TigergraphCoreAPI.csproj": {}
+    "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\TigergraphCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rohit\\source\\repos\\TigergraphCore\\TigergraphCoreAPI\\TigergraphCoreAPI.csproj": {
+    "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\TigergraphCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohit\\source\\repos\\TigergraphCore\\TigergraphCoreAPI\\TigergraphCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\TigergraphCoreAPI.csproj",
         "projectName": "TigergraphCoreAPI",
-        "projectPath": "C:\\Users\\rohit\\source\\repos\\TigergraphCore\\TigergraphCoreAPI\\TigergraphCoreAPI.csproj",
+        "projectPath": "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\TigergraphCoreAPI.csproj",
         "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohit\\source\\repos\\TigergraphCore\\TigergraphCoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
