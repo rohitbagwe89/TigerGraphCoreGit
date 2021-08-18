@@ -18,3 +18,10 @@ C:\Users\rohit\source\repos\TigergraphCore\TigergraphCoreAPI\obj\Debug\netcoreap
 C:\Users\rohit\source\repos\TigergraphCore\TigergraphCoreAPI\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.dll
 C:\Users\rohit\source\repos\TigergraphCore\TigergraphCoreAPI\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.pdb
 C:\Users\rohit\source\repos\TigergraphCore\TigergraphCoreAPI\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.genruntimeconfig.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.csproj.AssemblyReference.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.AssemblyInfoInputs.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.AssemblyInfo.cs
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.csproj.CoreCompileInputs.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.dll
+C:\Users\rohit\source\repos\TigerGraphCoreGit\obj\Debug\netcoreapp3.1\TigergraphCoreAPI.pdb
