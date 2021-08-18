@@ -11,18 +11,20 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using RestSharp;
+using Microsoft.Extensions.Options;
+
 
 namespace TigerGraphLib
 {
-    public class ApiClient : TigerGraphLib.Base.BaseApiClient
+    public class TgClient : TigerGraphLib.Base.BaseApiClient
     {
         #region Constructors
-        static ApiClient()
+        static TgClient()
         {
-            Configuration = new ConfigurationBuilder().Build();
-                   
+            Logger = new ConsoleLogger();
+
         }
-        public ApiClient(string token, Uri restServerUrl, Uri gsqlServerUrl, string user, string pass) : base(token, restServerUrl, gsqlServerUrl, user, pass)
+        public TgClient(string token, Uri restServerUrl, Uri gsqlServerUrl, string user, string pass) : base(token, restServerUrl, gsqlServerUrl, user, pass)
         {
             RestClient = new RestClient(RestServerUrl);
             if (!string.IsNullOrEmpty(token))
@@ -44,7 +46,7 @@ namespace TigerGraphLib
             Initialized = true;
         }
 
-        public ApiClient() :  this(Config("TG_Token"), GetUri(Config("TG_REST_SERVER_URL")), GetUri(Config("TG_GSQL_SERVER_URL")), Config("TG_USER"), Config("TG_PASS")) {}
+        public TgClient(ApiOptions objApiopt) :  this(objApiopt.Token, GetUri(objApiopt.RestServerUrl), GetUri(objApiopt.GsqlServerUrl), objApiopt.User, objApiopt.Pass) {}
         #endregion
 
         #region Implemented members
@@ -147,7 +149,7 @@ namespace TigerGraphLib
 
         public static DirectoryInfo CurrentDirectory { get; } = new DirectoryInfo(Directory.GetCurrentDirectory());
 
-        public static string Config(string i) => Configuration[i];
+        
 
         public RestClient RestClient { get; set; }
 

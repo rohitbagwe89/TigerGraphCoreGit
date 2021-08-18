@@ -17,6 +17,7 @@ namespace TigerGraphLib.Base
             User = user ?? throw new ArgumentException("Could not get the TigerGraph user name.");
             Pass = pass ?? throw new ArgumentException("Could not get the TigerGraph user password.");
             Info("Initialized REST++ client for {0} and GSQL client for {1}.", RestServerUrl, GsqlServerUrl);
+            
         }
         #endregion
 

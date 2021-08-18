@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "MH6A/76sRFnnQ44mW89NEmxQhAOoEjO3ipcvSErJeq3b++tlZdRriNZsyB7M+0MLcb0mqeOdg2u/wK52RZtobg==",
+  "dgSpecHash": "/+Z9I8wbFXts264IZiMQr5Dm1OEjyKjnyOjMLPaQ5Fklo0ZHo03srf4mQc7V2vTvzwE3EdxKAjqa1I78TqAJHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rohit\\source\\repos\\TigerGraphCoreGit\\TigerGraphLib\\TigerGraphLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.2\\microsoft.extensions.configuration.2.0.2.nupkg.sha512",
     "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.2\\microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
-    "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\rohit\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\rohit\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\rohit\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
-    "C:\\Users\\rohit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    "C:\\Users\\rohit\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,5 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TigerGraphLib\**" />
+    <Content Remove="TigerGraphLib\**" />
+    <EmbeddedResource Remove="TigerGraphLib\**" />
+    <None Remove="TigerGraphLib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="TigerGraphLib\TigerGraphLib.csproj" />
+  </ItemGroup>
+
 
 </Project>

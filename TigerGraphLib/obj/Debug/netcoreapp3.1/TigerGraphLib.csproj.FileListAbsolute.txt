@@ -1,6 +1,7 @@
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\obj\Debug\netcoreapp3.1\TigerGraphLib.AssemblyInfoInputs.cache
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\obj\Debug\netcoreapp3.1\TigerGraphLib.AssemblyInfo.cs
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\obj\Debug\netcoreapp3.1\TigerGraphLib.csproj.CoreCompileInputs.cache
+C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\obj\Debug\netcoreapp3.1\TigerGraphLib.csproj.AssemblyReference.cache
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\bin\Debug\netcoreapp3.1\TigerGraphLib.deps.json
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\bin\Debug\netcoreapp3.1\TigerGraphLib.dll
 C:\Users\rohit\source\repos\TigerGraphCoreGit\TigerGraphLib\bin\Debug\netcoreapp3.1\TigerGraphLib.pdb
