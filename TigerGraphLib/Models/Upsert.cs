@@ -7,7 +7,7 @@ namespace TigerGraphLib.Models
     public class UpsertAttr
     {
         public object value { get; set; }
-        public string op { get; set; }
+        //public string op { get; set; }
 
     }
 
@@ -59,7 +59,7 @@ namespace TigerGraphLib.Models
         {
             foreach (var kv in attrs)
             {
-                vertices[typeName][vertexId].Add(kv.Item1, new UpsertAttr() { value = kv.Item2, op = vertexOP});
+                vertices[typeName][vertexId].Add(kv.Item1, new UpsertAttr() { value = kv.Item2});
             }
             return this;
         }

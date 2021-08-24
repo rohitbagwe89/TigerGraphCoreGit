@@ -204,7 +204,7 @@ namespace TigerGraphLib.Base
             else throw new ArgumentException(string.Format("Unsupported arguments: Edge type:{0} Target Vertex Type: {1} Target Vertex ID:{2}", edgeType, targetVertexType, targetVertexId));
         }
 
-        public async Task<UpsertResult> Upsert(string graphName, Upsert data, bool? ack, bool? new_vertex_only, bool? vertex_must_exist)
+        public async Task<UpsertResult> Upsert(string graphName, Upsert data, bool ack= true, bool new_vertex_only= true, bool vertex_must_exist= true )
         {
             if (data.vertices == null)
             {
@@ -214,11 +214,15 @@ namespace TigerGraphLib.Base
             {
                 data.edges = new EdgesUpsert();
             }
+
+            var _p = "?ack=" + (ack ? "all": "none" ) + "&new_vertex_only=" + new_vertex_only + "&vertex_must_exist=" + vertex_must_exist;
+            
+
             int vc = data.vertices.Count;
             int ec = data.edges.Count;
             using (var op = Begin("Upsert {0} vertices and {1} edges into graph {2} on server {3}", vc, ec, graphName, RestServerUrl))
             {
-                var query = "graph/" + graphName;
+                var query = "graph/" + graphName+ _p;
                 var response = await RestHttpPostAsync<Upsert, UpsertResult>(query, data);
                 op.Complete();
                 return response;
