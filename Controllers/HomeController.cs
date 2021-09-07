@@ -33,6 +33,7 @@ namespace TigergraphCoreAPI.Controllers
             ValueTuple<string, object> arrayTuplegender = ("gender", "Male");
             data.AddVertexTypes("person");
             data.AddVertex("person", "4444");
+            sss
             data.AddVertexAttributes("person","4444","", arrayTuplefirst_name, arrayTuplelast_name, arrayTupleage, arrayTupleemail, arrayTuplegender);
 
             var r = await _TgClient.Upsert("friends",data,true,false,true);
